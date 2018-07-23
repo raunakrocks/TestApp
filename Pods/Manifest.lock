@@ -1,0 +1,38 @@
+PODS:
+  - LayoutTest (4.0.2):
+    - LayoutTest/TestCase (= 4.0.2)
+    - LayoutTestBase (= 4.0.2)
+  - LayoutTest/TestCase (4.0.2):
+    - LayoutTestBase (= 4.0.2)
+    - LayoutTestBase/Config
+    - LayoutTestBase/Core
+  - LayoutTestBase (4.0.2):
+    - LayoutTestBase/Autolayout (= 4.0.2)
+    - LayoutTestBase/Catalog (= 4.0.2)
+    - LayoutTestBase/Config (= 4.0.2)
+    - LayoutTestBase/Core (= 4.0.2)
+    - LayoutTestBase/UIViewHelpers (= 4.0.2)
+  - LayoutTestBase/Autolayout (4.0.2)
+  - LayoutTestBase/Catalog (4.0.2):
+    - LayoutTestBase/Core
+  - LayoutTestBase/Config (4.0.2)
+  - LayoutTestBase/Core (4.0.2):
+    - LayoutTestBase/Config
+  - LayoutTestBase/UIViewHelpers (4.0.2):
+    - LayoutTestBase/Config
+
+DEPENDENCIES:
+  - LayoutTest
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LayoutTest
+    - LayoutTestBase
+
+SPEC CHECKSUMS:
+  LayoutTest: 8b9afa6b192071edcaaab3838ba7f32a131b29d1
+  LayoutTestBase: 6b95edc3abbcf50c8a9c2492b032a5ca4aab9efb
+
+PODFILE CHECKSUM: 760569e221ada3a357b2c5109de16bccbe44752e
+
+COCOAPODS: 1.5.2

@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="TestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,13 +37,18 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z39-FD-QFT" secondAttribute="trailing" constant="16" id="Hgr-E6-pGv"/>
                             <constraint firstItem="z39-FD-QFT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RGU-fA-uwl"/>
                             <constraint firstItem="fWH-pr-BCd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="efO-VN-kcm"/>
+                            <constraint firstItem="z39-FD-QFT" firstAttribute="leading" secondItem="fWH-pr-BCd" secondAttribute="trailing" constant="241.5" id="wth-mo-o8q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="label1" destination="fWH-pr-BCd" id="u4M-5T-dFO"/>
+                        <outlet property="label2" destination="z39-FD-QFT" id="nTx-BQ-aUD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-404" y="116"/>
         </scene>
     </scenes>
 </document>
